@@ -1,0 +1,12 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.21.6/system.js" integrity="sha256-P/natlKEKl5JHNkCmQifJAnl8+pWA38Et2wDf4Tp0mM=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    // python -m SimpleHTTPServer 8000
+    SystemJS.config({
+        map: {
+            'plugin-babel': 'https://cdn.jsdelivr.net/npm/systemjs-plugin-babel@0.0.25/plugin-babel.js',
+            'systemjs-babel-build': 'https://cdn.jsdelivr.net/npm/systemjs-plugin-babel@0.0.25/systemjs-babel-browser.js'
+        },
+        transpiler: 'plugin-babel'
+    });
+    System.import('./app.js');
+</script>

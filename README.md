@@ -1,9 +1,3 @@
 # JavaScript ES5 Workshop
 
-ES5 basics with Vanilla JS.
-
-TODO
-
-* Modules
-* Async
-* MVC
+ES5 basics with Vanilla JS.MVC. ES6 to ES5 with Babel and CommonJS and SystemJS.
